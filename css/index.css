@@ -2460,6 +2460,17 @@ input, select, textarea {
 		white-space: nowrap;
 	}
 
+	.button.primary {
+		background-color: #ed4933;
+		box-shadow: none !important;
+		color: #ffffff !important;
+		font-size: 0.5em; /* Increase font size if needed */
+	}
+
+	.actions-stacked .button-fit-primary {
+    font-size: 1rem;
+	}
+
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
@@ -3303,3 +3314,12 @@ input, select, textarea {
 		min-height: 30px;
 		z-index: 1;
 	}
+
+
+	
+
+
+	
+
+
+	
